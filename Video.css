@@ -1,0 +1,140 @@
+.homeContent{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap:40px; */
+
+    width: auto;
+    padding-left: 80px;
+    padding-top: 70px;
+    /* margin-left: 70px; */
+    /* width: calc(100% - 70px);  */
+
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.videoFull{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap:40px;
+    margin-bottom: 30px;
+}
+
+.video-Preview {
+    display:flex;
+    flex-direction: column;
+    vertical-align: top;
+    /* border: 2px solid blue; */
+}
+
+.video-container {
+    position: relative; /* Ensures absolute children are positioned relative to this */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.video-length {
+    background-color: rgba(43, 43, 43, 0.895);
+    color: white;
+    position: absolute;
+    bottom: 8px; /* Positioning from bottom */
+    right: 8px; /* Positioning from right */
+    padding: 3px 6px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    pointer-events: none; /* Prevents users from clicking directly on the iframe */
+}
+
+.channel-picture img {
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    object-position: botton ;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-info {
+    margin-top: 10px;
+}
+
+.video-title {
+    font-weight: bold;
+}
+
+.video-author {
+    font-size: 10pt;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.video-stats {
+    margin-top: 10px;   
+    font-size: 10pt;
+    opacity: 0.8;
+}
+
+.video-stats:hover{
+   cursor: pointer; 
+}
+
+/* FOR THE SHORTS SECTION */
+
+.shorts{
+    margin-top: 40px;
+    background-color: var();
+    padding: 10px;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px rgba(200,200,200,0.15);
+
+}
+
+.Shorts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 700px;
+    margin-top: 10px;
+}
+
+.Shorts-Preview{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 280px;
+    margin-right: 20px;
+}
+
+.Shorts-container {
+    width: 100%; /* Takes full width */
+    height: 70%; /* Takes full height */
+    display: flex; /* Ensures centering */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 65px 0px rgba(200,200,200,0.25);
+}
+
+.Short-thumbnail {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes unwanted borders */
+}

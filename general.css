@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Roboto, Arial;
+    /* border: 1px solid red; */
+    /* border: none; */
+}
+
+body{
+    height: 3000px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-top: 55px;
+    right:0;
+}
+
+
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --icon-bg-color:none;
+    --buton-category: rgb(230, 230, 230);
+    --butons-category: rgba(233, 233, 233, 0.731);
+    --category-text: black;
+    --bg-button:none;
+    --middle-border:  solid black;
+    --icon-bg:none;
+    --hover-bg: rgb(235, 235, 235);
+    --tooltip-bg-color: rgba(33, 32, 32, 0.771);
+    --tootip-text-color:white;
+    --scrollbar-bg: #f1f1f1;
+    --scrollbar-thumb: #888;
+}
+
+.dark-theme {
+   --scrollbar-bg: #222;
+   --scrollbar-thumb: #555;
+    --bg-color: #181818;
+    --text-color: rgb(190, 182, 182);
+    --icon-bg-color: rgba(255, 255, 255, 0.185);
+    --icon-filter: invert(1);
+    --hover-bg: rgba(37, 37, 37, 0.753);
+    --hover-text: rgb(190, 182, 182);
+    --buton-category: rgba(252, 252, 252, 0.757);
+    --butons-category:rgba(76, 75, 75, 0.293);
+    --category-text:white;
+    --bg-button:#181818;
+    --middle-border: solid rgb(206, 204, 204);
+    --icon-bg:rgba(37, 37, 37, 0.253);
+    --tooltip-bg-color: rgb(206, 204, 204);
+    --tootip-text-color:black;
+
+}
+
+.video-Preview {
+    background-color: var(--video-preview-bg);
+}
+
+
+
+
+
+
+.spinner {
+   position: absolute;
+   width: 9px;
+   height: 9px;
+}
+
+.spinner div {
+   position: absolute;
+   width: 50%;
+   height: 150%;
+   background: #474bff;
+   transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+   animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
+}
+
+.spinner div:nth-child(1) {
+   --delay: 0.1;
+   --rotation: 36;
+   --translation: 150;
+}
+
+.spinner div:nth-child(2) {
+   --delay: 0.2;
+   --rotation: 72;
+   --translation: 150;
+}
+
+.spinner div:nth-child(3) {
+   --delay: 0.3;
+   --rotation: 108;
+   --translation: 150;
+}
+
+.spinner div:nth-child(4) {
+   --delay: 0.4;
+   --rotation: 144;
+   --translation: 150;
+}
+
+.spinner div:nth-child(5) {
+   --delay: 0.5;
+   --rotation: 180;
+   --translation: 150;
+}
+
+.spinner div:nth-child(6) {
+   --delay: 0.6;
+   --rotation: 216;
+   --translation: 150;
+}
+
+.spinner div:nth-child(7) {
+   --delay: 0.7;
+   --rotation: 252;
+   --translation: 150;
+}
+
+.spinner div:nth-child(8) {
+   --delay: 0.8;
+   --rotation: 288;
+   --translation: 150;
+}
+
+.spinner div:nth-child(9) {
+   --delay: 0.9;
+   --rotation: 324;
+   --translation: 150;
+}
+
+.spinner div:nth-child(10) {
+   --delay: 1;
+   --rotation: 360;
+   --translation: 150;
+}
+
+@keyframes spinner-fzua35 {
+   0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+   }
+
+   50% {
+      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+   }
+}
+
+
+/* Scrollbar for WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+   width: 8px;
+}
+
+::-webkit-scrollbar-track {
+   background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--scrollbar-thumb);
+   border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #666;
+}
+

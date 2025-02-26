@@ -1,0 +1,47 @@
+.side-bar{
+    position: fixed;
+    width: 68px;
+    height: 100vh;
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    z-index:3;
+    top:0;
+    left: 0;
+    padding-left: 2px;
+    padding-bottom: 300px;
+    background-color:var(--bg-color);
+}
+
+
+.icon-content{
+    display: flex;
+    list-style-position: inside;
+    flex-direction: column;
+    width: 66px;
+    align-items: center;
+    height: 60px;
+    background-color: var(--bg-color);
+    padding-bottom: 4px;
+}
+
+.icon-content:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--hover-bg);
+}
+
+.side-icon{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 24PX;
+    filter: var(--icon-filter);
+}  
+
+.icon-content p{
+    font-size: 10px;
+}
+
