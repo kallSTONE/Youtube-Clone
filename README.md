@@ -8,9 +8,9 @@ It fetches videos from the YouTube API and includes additional features such as 
 I built this project to practice working with APIs, improve my frontend skills, and explore JavaScript interactivity.
 
 ## Features  
-- ✅ Utilizes YouTube's API to load videos  
-- ✅ Toggle button for switching themes (Dark/Light Mode)  
-- ✅ Shorts section for quick video content  
+✅ Utilizes YouTube's API to load videos  
+✅ Toggle button for switching themes (Dark/Light Mode)  
+✅ Shorts section for quick video content  
 
 
 
@@ -24,12 +24,12 @@ I built this project to practice working with APIs, improve my frontend skills, 
 
 
 ### 5. **Credits & Resources**  
-```md
+
 ## Credits  
-- **Original Tutorial:** [YouTube Clone by SuperSimpleDev](https://www.youtube.com/watch?v=G3e-cpL7ofc)  
-- **Original Exercise Page:** [SuperSimpleDev Exercises](https://supersimple.dev/exercises/youtube/)  
+**Original Tutorial:** [YouTube Clone by SuperSimpleDev](https://www.youtube.com/watch?v=G3e-cpL7ofc)  
+**Original Exercise Page:** [SuperSimpleDev Exercises](https://supersimple.dev/exercises/youtube/)  
 
 ## Future Improvements  
-- [ ] Responsive design for mobile and tablet  
-- [ ] Add a search functionality  
-- [ ] Improve the video player interface  
+[] Responsive design for mobile and tablet  
+[] Add a search functionality  
+[] Improve the video player interface  
