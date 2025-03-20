@@ -7,14 +7,15 @@ This is my first personal project—a YouTube Clone built with HTML, CSS, and Ja
 It fetches videos from the YouTube API and includes additional features such as theme switching and a Shorts section.  
 I built this project to practice working with APIs, improve my frontend skills, and explore JavaScript interactivity.
 
-## Features  
-✅ Utilizes YouTube's API to load videos  
-✅ Toggle button for switching themes (Dark/Light Mode)  
-✅ Shorts section for quick video content  
+## Features  I added
+✅ Utilized YouTube's API to load videos  
+✅ Added Toggle button for switching themes (Dark/Light Mode)  
+✅ Added Shorts section for quick video content  
+✅ Included a Feed Filter Bar
 
 
 ## Live Demo  
-[Check out the YouTube Clone](https://your-username.github.io/youtube-clone/)  
+[Check out the YouTube Clone](https://kallstone.github.io/Youtube-Clone/)  
 
 
 ## How to Run  
@@ -31,7 +32,3 @@ I built this project to practice working with APIs, improve my frontend skills, 
 **Original Tutorial:** [YouTube Clone by SuperSimpleDev](https://www.youtube.com/watch?v=G3e-cpL7ofc)  
 **Original Exercise Page:** [SuperSimpleDev Exercises](https://supersimple.dev/exercises/youtube/)  
 
-## Future Improvements  
-[] Responsive design for mobile and tablet  
-[] Add a search functionality  
-[] Improve the video player interface  
