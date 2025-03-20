@@ -18,7 +18,7 @@ I built this project to practice working with APIs, improve my frontend skills, 
 ## How to Run  
 1. Clone this repository:  
    ```sh
-   git clone https://github.com/your-username/youtube-clone.git
+   git clone https://github.com/kallSTONE/youtube-clone.git
    
    2. Open index.html in a browser.
 
