@@ -13,6 +13,8 @@ I built this project to practice working with APIs, improve my frontend skills, 
 ✅ Shorts section for quick video content  
 
 
+## Live Demo  
+[Check out the YouTube Clone](https://your-username.github.io/youtube-clone/)  
 
 
 ## How to Run  
