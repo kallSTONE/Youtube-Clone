@@ -1,5 +1,5 @@
 # Youtube-Clone
-![Image](https://github.com/user-attachments/assets/94f6f6a6-0dd4-4543-baec-749e4eab89ab)
+![Image](YouTube-Clone ReadMe Image.png)
 
 
 ## About the Project  
