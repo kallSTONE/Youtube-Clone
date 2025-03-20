@@ -5,3 +5,6 @@ This is my very first personal project, a Youtube Clone that I created using HTM
 
 
 I followed a youtube video as i am doing it but here are the things that i have changed and improved and added
+
+
+![Image](https://github.com/user-attachments/assets/94f6f6a6-0dd4-4543-baec-749e4eab89ab)
